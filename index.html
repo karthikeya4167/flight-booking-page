@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airways</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+    <!-- Header Section -->
+     <header>
+        <div class="logo">
+            <img src="C:\Users\sree\OneDrive\Pictures\Saved Pictures\airlogo.jpeg" alt="Airways logo">
+            <h1>Airways</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- Main Content Section -->
+      <main id="home">
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <div class="destination-list">
+                <div class="destination-item">
+                    <img src="C:\Users\sree\OneDrive\Pictures\Saved Pictures\bicycletree.jpeg" alt="Delhi">
+                    <h3>Delhi</h3>
+                    <p>Travel over with Airways.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="C:\Users\sree\OneDrive\Pictures\Saved Pictures\underwater.jpeg" alt="little Andaman">
+                    <h3>little Andaman</h3>
+                    <p>Enjoy the prime surfing destination in india.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="C:\Users\sree\OneDrive\Pictures\Saved Pictures\himalayas.jpeg" alt="Himalayas">
+                    <h3>Himalayas</h3>
+                    <p>travel over the cool mountains.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="C:\Users\sree\OneDrive\Pictures\Saved Pictures\kashmir.jpeg" alt="Kashmir">
+                    <h3>Kashmir</h3>
+                    <p>Enjoy the beauty of kashmir by road.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Airways are always offer flights to around india, ensuring safety first for our passengers is our fist policy.</p>
+        </section>
+
+        <section id="booking">
+            <h2>Book Your Flight</h2>
+            <form id="booking-form">
+                <label for="destination">Choose Destination:</label>
+                <select name="destination" id="destination">
+                    <option value="Delhi">Delhi</option>
+                    <option value="little Andaman">little Andaman</option>
+                    <option value="Himalayas">Himalayas</option>
+                    <option value="Kashmir">Kashmir</option>
+                </select>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date">
+
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" max="10">
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+      </main>
+      <!-- Footer Section -->
+       <footer>
+        <p>&copy; 2024 Airways. All Rights Reserved</p>
+       </footer>
+
+       <script src="script.js"></script>
+</body>
+</html>
